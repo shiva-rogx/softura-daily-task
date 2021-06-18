@@ -12,9 +12,9 @@ namespace DropDownEmply.Controllers
         // GET: Department
         public ActionResult Index()
         {
-            DepartmentModel dm = new DepartmentModel();
-            dm.Departments = dm.PopulateDepartments();
-            return View(dm);
+            DepartmentModel dep = new DepartmentModel();
+            dep.Departments = dep.PopulateDepartments();
+            return View(dep);
         }
         [HttpPost]
         public ActionResult Index(DepartmentModel department, string action)
@@ -24,7 +24,7 @@ namespace DropDownEmply.Controllers
             var selectedItem = department.PopulateDepartments().Find(p => p.Value == department.DepartmentID.ToString());
             if (selectedItem != null && action == "Submit")
             {
-                department.dt = department.DisplayEmployees(Convert.ToInt32(selectedItem.Value));
+                department.Dt = department.DisplayEmployees(Convert.ToInt32(selectedItem.Value));
             }
             return View(department);
         }

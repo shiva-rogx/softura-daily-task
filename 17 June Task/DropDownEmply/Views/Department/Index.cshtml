@@ -5,9 +5,8 @@
     Layout = null;
 }
 
-
 <body>
-    <h2>Index</h2>
+    <h2>DownDownList Department</h2>
     <br />
     @using (Html.BeginForm("Index", "Department", FormMethod.Post))
     {
@@ -17,17 +16,17 @@
         <input type="submit" name="action" />
     }
     <br /><br />
-    @if (Model.dt != null)
+    @if (Model.Dt != null)
     {
         <div>
             <form method="post" name="Display">
 
-                @{ if (Model.dt.Rows.Count > 0)
+                @{ if (Model.Dt.Rows.Count > 0)
                     {
                         <h2>Employee Details</h2>
                         <br />
                         <br />
-                        <table border="1">
+                        <table>
                             <thead>
                                 <tr>
                                     <th>Employee ID</th>
@@ -38,7 +37,7 @@
                                     <th>HireDate</th>
                                 </tr>
                             </thead>
-                            @foreach (DataRow dr in Model.dt.Rows)
+                            @foreach (DataRow dr in Model.Dt.Rows)
                             {
                                 <tr>
                                     <td>@dr["BusinessEntityID"].ToString()</td>
@@ -50,12 +49,6 @@
                                 </tr>
                             }
                         </table> }
-                    else
-                    {
-                        <script>
-                                alert("No More Employees in the Department")
-                        </script>
-                    }
                 }
             </form>
         </div>
