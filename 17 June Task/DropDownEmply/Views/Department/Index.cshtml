@@ -1,4 +1,5 @@
 ﻿@model DropDownEmply.Models.DepartmentModel
+
 @using System.Data
 @{
     ViewBag.Title = "Index";
@@ -10,9 +11,9 @@
     <br />
     @using (Html.BeginForm("Index", "Department", FormMethod.Post))
     {
-        <label>Select Department : </label>
-        @Html.DropDownListFor(m => m.DepartmentID, Model.Departments, "Please select", new { @class = "form-control" })
-        <br />
+        <label>Department:</label>
+        @Html.DropDownListFor(m => m.DepartmentID, Model.Departments, "Select", new { @class = "form-control" })
+        <br /> <br />
         <input type="submit" name="action" />
     }
     <br /><br />
@@ -26,12 +27,12 @@
                         <h2>Employee Details</h2>
                         <br />
                         <br />
-                        <table>
+                        <table border="1">
                             <thead>
                                 <tr>
                                     <th>Employee ID</th>
                                     <th>Employee Name</th>
-                                    <th>Employee DOB</th>
+                                    <th>Employee BirthDate</th>
                                     <th>Gender</th>
                                     <th>MaritalStatus</th>
                                     <th>HireDate</th>
