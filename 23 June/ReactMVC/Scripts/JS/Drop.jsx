@@ -1,37 +1,40 @@
-﻿class drop extends React.Component {
-    desert = [
-        {
-            value=1,
-            text ="Gulab Jamun"
-        },
-        {
-            value=2,
-            text ="Basundi"
-        },
-        {
-            value=3,
-            text ="Jalebi"
-        },
-        {
-            value=4,
-            text ="Ras Malai"
-        },
-    ]
-    render() {
+﻿Foods = [
+    {
+        value: 1,
+        item: 'Pizza'
+    },
+    {
+        value: 2,
+        item: 'Momos'
+    },
+    {
+        value: 3,
+        item: 'Briyani'
+    },
+    {
+        value: 4,
+        item: 'Burger'
+    },
+]
+var items = Foods.map(food => {
+    console.log(Foods)
+    return (
+        <option>{food.item}</option>
+    )
+})
+var Myapp = React.createClass({
+    
+    
+    render: function () {
         return (
             <div>
-                <h2>List of Items</h2>
-                <hr />
                 <select>
-                    <option>--Pick your choice--</option>
-                    {
-                        this.desert.map((displaydesert) =>
-                            <option title={displaydesert.value} > (displaydesert.text)</option>)
-                    }
-                   
-                    </select>
+                    {items}
+                </select>
             </div>
         )
     }
-}
-React.render(<drop />, document.getElementById("drop"));
+});
+                    
+
+React.render(<Myapp />, document.getElementById("drop-div"));
