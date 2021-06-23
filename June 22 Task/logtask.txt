@@ -1,0 +1,3 @@
+Exception occurs 23-06-2021 10:09:36 from the controller Book from the method Index
+Exception occurs 23-06-2021 10:10:14 from the controller Book from the method Index
+Exception occurs 23-06-2021 10:12:30 from the controller Book from the method Index
