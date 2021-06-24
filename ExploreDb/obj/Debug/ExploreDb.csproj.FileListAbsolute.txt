@@ -1,0 +1,14 @@
+D:\Softura_Training\11th June\ExploreDbSoln\ExploreDb\bin\Debug\ExploreDb.exe.config
+D:\Softura_Training\11th June\ExploreDbSoln\ExploreDb\bin\Debug\ExploreDb.exe
+D:\Softura_Training\11th June\ExploreDbSoln\ExploreDb\bin\Debug\ExploreDb.pdb
+D:\Softura_Training\11th June\ExploreDbSoln\ExploreDb\obj\Debug\ExploreDb.csproj.AssemblyReference.cache
+D:\Softura_Training\11th June\ExploreDbSoln\ExploreDb\obj\Debug\ExploreDb.csproj.CoreCompileInputs.cache
+D:\Softura_Training\11th June\ExploreDbSoln\ExploreDb\obj\Debug\ExploreDb.exe
+D:\Softura_Training\11th June\ExploreDbSoln\ExploreDb\obj\Debug\ExploreDb.pdb
+C:\Users\mcshi\OneDrive\Desktop\ExploreDbSoln\ExploreDb\bin\Debug\ExploreDb.exe.config
+C:\Users\mcshi\OneDrive\Desktop\ExploreDbSoln\ExploreDb\bin\Debug\ExploreDb.exe
+C:\Users\mcshi\OneDrive\Desktop\ExploreDbSoln\ExploreDb\bin\Debug\ExploreDb.pdb
+C:\Users\mcshi\OneDrive\Desktop\ExploreDbSoln\ExploreDb\obj\Debug\ExploreDb.csproj.AssemblyReference.cache
+C:\Users\mcshi\OneDrive\Desktop\ExploreDbSoln\ExploreDb\obj\Debug\ExploreDb.csproj.CoreCompileInputs.cache
+C:\Users\mcshi\OneDrive\Desktop\ExploreDbSoln\ExploreDb\obj\Debug\ExploreDb.exe
+C:\Users\mcshi\OneDrive\Desktop\ExploreDbSoln\ExploreDb\obj\Debug\ExploreDb.pdb
