@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<body>
+    <h2>Book List</h2>
+
+    @Html.DropDownList("BookList", (IEnumerable<SelectListItem>)ViewData["BokEF"])
+</body>
+
